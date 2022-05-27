@@ -35,20 +35,5 @@ sh run_test.sh
 |TRBA_cr|Synth90K + SynthText|10.6M unlabeled real data|98.0| 96.4   | 96.0   | 97.0   |  88.8   | 84.9   | 90.9  | 95.1   |
 
 
-### Recognize a image
-```bash
-python  pre_img.py  YOUR/MODEL/PATH  YOUR/IMAGE/PATH
-```
-
-### Citation
-```
-@article{yang2020holistic,
-  title={A Holistic Representation Guided Attention Network for Scene Text Recognition},
-  author={Yang, Lu and Wang, Peng and Li, Hui and Li, Zhen and Zhang, Yanning},
-  journal={Neurocomputing},
-  year={2020},
-  publisher={Elsevier}
-}
-```
 ### Acknowledgment
 This code is based on [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels) by [ku21fan]([https://github.com/Canjie-Luo](https://github.com/ku21fan)). Thanks for your contribution.
