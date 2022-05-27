@@ -5,9 +5,7 @@ python semi_train.py \
    --unl_train_1 <path_to_unlabeled_dataset> \
    --valid_data <path_to_validation_data> \
    --eval_data <path_to_evaluation_data> \
-   --eval_type ic13_ic15 \
-   --batchSize 384 \
-   --unl_batchSize 288 \
+   --eval_type simple \
    --model_name TRBA \
    --exp_name semi_exp \
    --Aug rand \
