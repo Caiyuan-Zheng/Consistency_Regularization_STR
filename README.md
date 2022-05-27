@@ -20,7 +20,7 @@ sh run_baseline.sh
 ```
 ### Semi-Supervised Training
 ```bash
-sh run_baseline.sh
+sh run_semi.sh
 ```
 
 ### Testing
