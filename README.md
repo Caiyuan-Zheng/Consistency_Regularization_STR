@@ -29,9 +29,12 @@ sh run_test.sh
 ```
 
 ### Pretrained Models
-|Model|Labeled data|Unlabeled data|Avg score|
-|TRBA|Synth90K+SynthText|None|91.38
-|TRBA|Synth90K+SynthText|10.6M unlabeled data|94.34
+|Model|Labeled data|Unlabeled data                |IC13 857|IC13 1015|SVT     |IIIT    |IC15 1811|IC15 2077|SVTP   |CUTE    |
+| :----: | :----: | :----:                        | :----: | :----:  | :----: | :----: | :----:  | :----: | :----: | :----: |
+|TRBA_pr|Synth90K + SynthText|-                     |97.2   | 95.9   | 91.8    |95.5      | 83.6   |  79.7    | 87.3   |88.5|
+|TRBA_cr|Synth90K + SynthText|10.6M unlabeled real data|98.0| 96.4   | 96.0   | 97.0   |  88.8   | 84.9   | 90.9  | 95.1   |
+
+
 ### Recognize a image
 ```bash
 python  pre_img.py  YOUR/MODEL/PATH  YOUR/IMAGE/PATH
