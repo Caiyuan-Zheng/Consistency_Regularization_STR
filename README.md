@@ -37,4 +37,4 @@ download pretrained model from here(https://pan.baidu.com/s/1JF97VY0oiPiK5GpDEsY
 
 
 ### Acknowledgment
-This code is based on [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels) by [ku21fan]([https://github.com/Canjie-Luo](https://github.com/ku21fan)). Thanks for your contribution.
+This code is based on [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels) by [Jeonghun Baek](https://github.com/ku21fan). Thanks for your contribution.
