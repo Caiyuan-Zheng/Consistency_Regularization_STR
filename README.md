@@ -32,7 +32,6 @@ sh run_test.sh
 download pretrained model from here(https://pan.baidu.com/s/1JF97VY0oiPiK5GpDEsYioQ?pwd=abhr, password:abhr) and put them in saved_models.
 |Model|Labeled data|Unlabeled data                |IC13 857|IC13 1015|SVT     |IIIT    |IC15 1811|IC15 2077|SVTP   |CUTE    |
 | :----: | :----: | :----:                        | :----: | :----:  | :----: | :----: | :----:  | :----: | :----: | :----: |
-|TRBA_pr|10% (Synth90K+SynthText)                  |        |        |         |          |        | | | |
 |TRBA_pr|10% (Synth90K+SynthText)  |-                |        |        |         |          |        | | | |
 |TRBA_pr|10% (Synth90K+SynthText)  |1.06M unlabeled real data     |        |        |         |          |        | | | |
 |TRBA_pr|Synth90K + SynthText|-                     |97.2   | 95.9   | 91.8    |95.5      | 83.6   |  79.7    | 87.3   |88.5|
