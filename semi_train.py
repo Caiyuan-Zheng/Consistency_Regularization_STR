@@ -336,7 +336,7 @@ def test_base():
     """ Evaluation at the end of training """
     print('Start evaluation on benchmark testset')
     """ keep evaluation model and result logs """
-    model.load_state_dict(torch.load(opt.saved_model))
+    model.load_state_dict(torch.load(opt.saved_model),strict=False)
 
     model.eval()
     with torch.no_grad():
