@@ -33,7 +33,7 @@ download pretrained model from here(https://pan.baidu.com/s/1JF97VY0oiPiK5GpDEsY
 |Model|Labeled data|Unlabeled data                |IC13 857|IC13 1015|SVT     |IIIT    |IC15 1811|IC15 2077|SVTP   |CUTE    |
 | :----: | :----: | :----:                        | :----: | :----:  | :----: | :----: | :----:  | :----: | :----: | :----: |
 |TRBA_pr|10% (Synth90K+SynthText)  |-          | 96.3       | 94.3  | 91.5      | 94.3    | 81.5    |77.7 |84.2 |87.5|
-|TRBA_pr|10% (Synth90K+SynthText)  |1.06M unlabeled real data     | 97.2    |95.9 | 94.3        |   96.6  |  86.8 |79.7 |89.0 |93.4 |
+|TRBA_cr|10% (Synth90K+SynthText)  |1.06M unlabeled real data     | 97.2    |95.9 | 94.3        |   96.6  |  86.8 |79.7 |89.0 |93.4 |
 |TRBA_pr|Synth90K + SynthText|-                     |97.2   | 95.9   | 91.8    |95.5      | 83.6   |  79.7    | 87.3   |88.5|
 |TRBA_cr|Synth90K + SynthText|10.6M unlabeled real data|98.0| 96.4   | 96.0   | 97.0   |  88.8   | 84.9   | 90.9  | 95.1   |
 
